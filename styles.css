@@ -17,6 +17,10 @@ body {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
 @media screen and (max-width: 64em) and (min-width: 42em)
 .search {
     padding: 3rem 4rem;
@@ -26,4 +30,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: center;
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
+}
+@media screen and (max-width: 64em) and (min-width: 42em)
+.project-name {
+    font-size: 2.25rem;
+}
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+}
+:-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+@media screen and (max-width: 64em) and (min-width: 42em)
+.project-tagline {
+    font-size: 1.15rem;
+}
+.project-tagline {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 0.7;
 }
